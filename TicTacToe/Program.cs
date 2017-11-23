@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToe
 {
+    enum SquareState { Undecided, X, O };
     class Program
     {
         static void Main(string[] args)
